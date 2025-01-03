@@ -66,7 +66,7 @@ header img{
 }
 
 header h2{
-    font-size: 48px;
+    font-size: 4.8rem;
     text-align: center;
 }
 
@@ -107,7 +107,7 @@ nav ul a{
 }
 
 main{
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 .area-projeto video, img{
     width: 32rem;
@@ -187,7 +187,7 @@ p{
 
 #meios-de-contato div{
     background-color: #111111;
-    width: 34.7rem;
+    width: 31rem;
     height: 5.5rem;
     display: flex;
     justify-content: space-evenly;
@@ -233,14 +233,16 @@ footer{
         height: 38.7rem;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         padding-left: 10rem;
     }
     header div  {
-        display: flex;
+        display: block;
 
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
         padding-left: 5rem;
     }
     .area-projeto{
@@ -264,7 +266,9 @@ footer{
         display: flex;
         justify-content: center;
     }
-
+    main{
+        font-size: 2.2rem;
+    }
     #meios-de-contato{
         display: flex;
         flex-direction: row;
